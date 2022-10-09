@@ -200,7 +200,7 @@ async def on_message(message):
         await message.channel.send(to_ping)
         #await message.channel.send(embed=embed)
 
-token_file = open("demofile.txt", "r")
+token_file = open("token.txt", "r")
 discord_token = token_file.read()
 token_file.close()
 client.run(discord_token)

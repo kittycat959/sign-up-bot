@@ -31,6 +31,6 @@ Displays information about the bot such as its version
 To use the bot you will need:
 - An api token for google sheets in the file google_token.json
 - A discord bot token in the file token.txt
-- Pyhton 3 installed with the packages gspread and discord.py
+- Python 3 installed with the packages gspread and discord.py
 
 After this simply run the sign_up_bot.py file and invite the bot to your server
